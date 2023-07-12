@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Service dengan Flask dan Streamlit</title>
+</head>
+<body>
+    <h1>Selamat datang di Web Service Flask dengan Streamlit</h1>
+    <form action="/result" method="post">
+        <label for="input-text">Masukkan teks:</label>
+        <input type="text" id="input-text" name="input-text">
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
